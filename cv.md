@@ -16,3 +16,11 @@ Summary
 Title/position: software developer
 Technologies: Delphi XE5-10.4, Oracle, PL/SQL, Interbase/Firebird , MS SQL
 
+*08/2009 - 07/2017*
+**Vimas Technologies, Kyiv, Ukraine** 
+Title/position: software developer
+Responsibilities: 
+1 Software development for retail and wholesale trade
+1 Industrial software development
+Technologies: Delphi XE-XE3, Oracle, PL/SQL, Interbase/Firebird , MS SQL, Java, Tomcat, js
+
