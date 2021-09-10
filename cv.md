@@ -24,3 +24,19 @@ Responsibilities:
 1 Industrial software development
 Technologies: Delphi XE-XE3, Oracle, PL/SQL, Interbase/Firebird , MS SQL, Java, Tomcat, js
 
+*10/2006 - 08/2009*
+**Trade House “Bila Tserkva Brick” Ltd., Bila Tserkva, Ukraine** 
+Title/position: Programmer
+Responsibilities: 
+1 Development and maintenance of the account system of fabrication of bricks
+1 Administration SQL
+1 e-mail, local network
+Technologies: Delphi 7, Interbase/Firebird , MS SQL, Kerio Mail Server, IBExpert 
+
+*02/2005 – 10/2006*
+**ZAT “Bila Tserkva TEC”, Bila Tserkva, Ukraine**
+Title/position: Senior Programmer
+Responsibilities: 
+1 Development and maintenance of application forms to switching electroenergy; 
+1 Development of system book-keeping account;
+Technologies: Delphi, MS SQL, Interbase/Firebird  
