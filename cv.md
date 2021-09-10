@@ -40,3 +40,27 @@ Responsibilities:
 1 Development and maintenance of application forms to switching electroenergy; 
 1 Development of system book-keeping account;
 Technologies: Delphi, MS SQL, Interbase/Firebird  
+
+*08/2002 – 02/2005*
+**JSCB “Mriya”, Bila Tserkva, Ukraine**  
+Position: Programmer 
+Responsibilities: 
+1 Development of application client-bank; 
+1 Development of application for management COM-server MS Word; 
+1 Administration MS SQL; 
+1 Development of  application for automatic send mail; 
+1 Service bankomats Diebold Opteva;
+Technologies: Delphi 7, Paradox,  MS Word, MS Access, MS SQL
+
+*12/1998 – 08/2002	*
+**Pension Fund of Ukraine,  Bila Tserkva, Ukraine**
+Title/position:  Administrator, Deputy chief division
+Responsibilities: 
+1 Administration of Informix; 
+1 Administration of SCO Unix; 
+1 Development and maintenance of report system for Court performers;
+Technologies: Delphi 7, Paradox, Informix, SCO Unix
+
+*06/2000 – 08/2001*
+**Plant of rubber product, Bila Tserkva, Ukraine**
+Title/position: radio engineer
