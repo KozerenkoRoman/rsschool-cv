@@ -46,12 +46,8 @@ html {
 body {
     font-family: Verdana, sans-serif;
     font-stretch: ultra-condensed;
-    /*font-size: 14px;*/
     line-height: 2em;
     display: flex;
-    /*align-self: stretch;*/
-    /*flex-wrap: nowrap;*/
-    /*flex-direction: column;*/
     color: #403f45;
 }
 
@@ -86,9 +82,7 @@ aside {
     padding: 1em;
     padding-left: 0;
     flex-direction: column;
-    /*float: left;*/
     display: flex;
-    /*justify-content: flex-start;*/
     align-content: stretch;
     max-width: 25em;
 }
@@ -150,7 +144,8 @@ article {
     margin-top: 5%;
     color: #a3c2ca;
 }
-.chapter-h3 h3{
+
+.chapter-h3 h3 {
     display: flex;
 }
 
@@ -163,7 +158,6 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*filter: drop-shadow(0 0 2px #463f47);*/
 }
 
 .rectangle:before {
@@ -223,10 +217,8 @@ pre {
 
 .progressbar {
     height: 1em;
-    /*position: relative;*/
     background: white;
     width: 24em;
-    /*filter: drop-shadow(0 0 2px #463f47);*/
 }
 
 .progressbar div {
@@ -234,8 +226,6 @@ pre {
     display: block;
     height: 100%;
     background-color: #403f45;
-    /*position: relative;*/
-    /*overflow: hidden;*/
 }
 
 .experience {
