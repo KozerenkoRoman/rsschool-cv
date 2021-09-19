@@ -14,7 +14,7 @@ body {
     color: #403f45;
 }
 
-.main-conteiner{
+.main-conteiner {
     display: flex;
     flex-direction: column;
 }
@@ -82,7 +82,7 @@ article {
     display: flex;
     flex-direction: row;
     background-color: #8c8c8c;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px;
 }
@@ -92,6 +92,7 @@ article {
     color: white;
     font-size: 1.5em;
 }
+
 .chapter-h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-stretch: ultra-condensed;
@@ -101,6 +102,7 @@ article {
 
 .chapter-h3 {
     display: flex;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-stretch: ultra-condensed;
     font-size: 2em;
