@@ -2,53 +2,72 @@ html {
     background-color: #d5d9da;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) {
+    body {
+        font-size: 4px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width: 590px) {
+    body {
+        font-size: 6px;
+    }
+}
+
+@media screen and (min-width: 770px) {
     body {
         font-size: 8px;
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 840px) {
     body {
         font-size: 9px;
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1020px) {
     body {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1920px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 1921px) {
+@media screen and (min-width: 1600px) {
     body {
         font-size: 16px;
     }
 }
 
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    body {
+        font-size: 25px;
+    }
+}
+
 body {
-    font-family: Verdana, sans-serif;
-    font-stretch: ultra-condensed;
+    font-family: Helvetica, sans-serif;
     line-height: 2em;
     display: flex;
     color: #403f45;
+    flex-direction: column;
 }
 
 .main-conteiner {
@@ -84,28 +103,30 @@ aside {
     flex-direction: column;
     display: flex;
     align-content: stretch;
-    max-width: 25em;
+    width: 25%;
 }
 
 .section-avatar {
-    padding: 5em;
+    padding: 1%;
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .avatar {
     border-radius: 50%;
-    width: auto;
+    width: 80%;
     height: auto;
     filter: drop-shadow(0 0 2px #463f47);
+    min-height: 5em;
+    min-width: 5em;
 }
 
 article {
     display: flex;
     align-self: stretch;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 5%;
+    padding-right: 5%;
     flex-direction: column;
 }
 
@@ -132,7 +153,7 @@ article {
     font-family: Arial, Helvetica, sans-serif;
     font-stretch: ultra-condensed;
     font-size: 3em;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .chapter-h3 {
@@ -141,7 +162,7 @@ article {
     font-family: Arial, Helvetica, sans-serif;
     font-stretch: ultra-condensed;
     font-size: 2em;
-    margin-top: 5%;
+    margin-top: 1%;
     color: #a3c2ca;
 }
 
@@ -150,7 +171,7 @@ article {
 }
 
 .rectangle {
-    width: 24em;
+    width: 90%;
     height: 6em;
     margin: 1em 0;
     background: #403f45;
@@ -198,6 +219,15 @@ article {
     color: white;
 }
 
+.skill {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.skill li {
+    margin-left: 0;
+}
+
 .skill-item {
     display: flex;
     color: white;
@@ -211,7 +241,7 @@ article {
 .progressbar {
     height: 1em;
     background: white;
-    width: 24em;
+    width: 90%;
 }
 
 .progressbar div {
@@ -235,7 +265,12 @@ article {
 }
 
 .experience-firm {
-    margin-left: 0.5em;
+    margin-left: 1%;
+}
+
+.code-source {
+    margin-right: 6%;
+    width: 95%;
 }
 
 /*carousel*/
@@ -288,7 +323,6 @@ article {
         background-position: 10px 50%;
     }
 }
-
 
 /*Select every element*/
 [id^="item"] {

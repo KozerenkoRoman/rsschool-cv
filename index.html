@@ -19,15 +19,20 @@
                 <div class="rectangle">
                     <div class="rectangle-child">CONTACT</div>
                 </div>
-
-                <div class="rectangle-svg">
-                    <img src="./images/email.svg" alt="smittya@ukr.net" width="35" height="35">
-                    <a href="mailto:smittya@ukr.net">smittya@ukr.net</a>
-                </div>
-                <div class="rectangle-svg">
-                    <img class="rectangle-svg" src="./images/phone.svg" alt="+38 (123)-456-7890" width="35" height="35">
-                    <a href="tel:+381234567890">+38 (123)-456-7890</a>
-                </div>
+                <ul class="skill">
+                    <li class="rectangle-svg">
+                        <img src="./images/email.svg" alt="smittya@ukr.net" width="35" height="35">
+                        <a href="mailto:smittya@ukr.net">smittya@ukr.net</a>
+                    </li>
+                    <li class="rectangle-svg">
+                        <img src="./images/phone.svg" alt="+38 (099)-12-3456" width="35" height="35">
+                        <a href="tel:+38099123456">+38 (099)-12-3456</a>
+                    </li>
+                    <li class="rectangle-svg">
+                        <img src="./images/skype.png" alt="roman.kozerenko" width="35" height="35">
+                        <a href="skype:roman.kozerenko">roman.kozerenko</a>
+                    </li>
+                </ul>
             </div>
             <div>
                 <div class="rectangle">
@@ -39,41 +44,58 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="rectangle">
-                    <div class="rectangle-child">SKILLS</div>
-                </div>
-                <div class="skill-item">
-                    <div>DELPHI PROGRAMMING</div>
-                </div>
-                <div class="progressbar">
-                    <div style="width: 95%"></div>
-                </div>
-                <div class="skill-item">
-                    <div>JAVA PROGRAMMING</div>
-                </div>
-                <div class="progressbar">
-                    <div style="width: 40%"></div>
-                </div>
-                <div class="skill-item">
-                    <div>DATABASE DESIGN AND DEVELOPMENT</div>
-                </div>
-                <div class="progressbar">
-                    <div style="width: 80%"></div>
-                </div>
-                <div class="skill-item">
-                    <div>JAVA SCRIPT PROGRAMMING</div>
-                </div>
-                <div class="progressbar">
-                    <div style="width: 10%"></div>
-                </div>
+
+            <div class="rectangle">
+                <div class="rectangle-child">SKILLS</div>
             </div>
+            <ul class="skill">
+                <li>
+                    <div class="skill-item">
+                        <div>DELPHI PROGRAMMING</div>
+                    </div>
+                    <div class="progressbar">
+                        <div style="width: 95%"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-item">
+                        <div>JAVA PROGRAMMING</div>
+                    </div>
+                    <div class="progressbar">
+                        <div style="width: 40%"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <div>DATABASE DESIGN AND DEVELOPMENT</div>
+                    </div>
+                    <div class="progressbar">
+                        <div style="width: 80%"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <div>JAVA SCRIPT PROGRAMMING</div>
+                    </div>
+                    <div class="progressbar">
+                        <div style="width: 10%"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <div>ENGLISH A1</div>
+                    </div>
+                    <div class="progressbar">
+                        <div style="width: 10%"></div>
+                    </div>
+                </li>
+            </ul>
         </aside>
 
         <article>
             <header class="main-header">
-                <h1>ROMAN&nbsp;</h1>
-                <h1>KOZERENKO</h1>
+                <h1>ROMAN&nbsp;KOZERENKO</h1>
             </header>
             <section>
                 <h2 class="chapter-h2">WORK EXPERIENCE</h2>
@@ -189,7 +211,7 @@
 
             <section>
                 <h2 class="chapter-h2">CODE EXAMPLE</h2>
-                <pre>
+                <pre class="code-source">
                     <code class="javascript">
 function revertRot(str, sz) {
   if (sz &lt; 1 || sz &gt; str.length) return '';
@@ -210,22 +232,35 @@ function revertRot(str, sz) {
                     <span id="item-3"></span>
 
                     <div class="carousel-item item-1">
-                        <img class="carousel-img" src="./images/RobotXT.png" alt="RobotXT" onclick="window.open('./images/RobotXT.png', '_blank');">
-                        <div class="carousel-info">A robot program that provides autonomous exchange trading</div>
+                        <figure>
+                            <img class="carousel-img" src="./images/RobotXT.png" alt="RobotXT"
+                                 onclick="window.open('./images/RobotXT.png', '_blank');">
+                            <figcaption class="carousel-info">A robot program that provides autonomous exchange trading
+                                (IABSocketAPI, NordNetAPI, Virtual TreeView, JCL, Interbase)
+                            </figcaption>
+                        </figure>
                         <a class="arrow arrow-prev" href="#item-3"></a>
                         <a class="arrow arrow-next" href="#item-2"></a>
                     </div>
-
                     <div class="carousel-item item-2">
-                        <img class="carousel-img" src="./images/cabinetDesigner.png" alt="cabinetDesigner" onclick="window.open('./images/cabinetDesigner.png', '_blank');">
-                        <div class="carousel-info">Program for 3D furniture design and calculation</div>
+                        <figure>
+                            <img class="carousel-img" src="./images/cabinetDesigner.png" alt="cabinetDesigner"
+                                 onclick="window.open('./images/cabinetDesigner.png', '_blank');">
+                            <figcaption class="carousel-info">Program for 3D furniture design and calculation (GLScene,
+                                DevExpress, SQLite, Clever Internet Suite, CAD VCL, FlexGraphics, FireDAC)
+                            </figcaption>
+                        </figure>
                         <a class="arrow arrow-prev" href="#item-1"></a>
                         <a class="arrow arrow-next" href="#item-3"></a>
                     </div>
-
                     <div class="carousel-item item-3">
-                        <img class="carousel-img" src="./images/ATMServer.png" alt="ATMServer" onclick="window.open('https://github.com/KozerenkoRoman/ATMMobile', '_blank');">
-                        <div class="carousel-info">RESTful Web Service with CRUD support</div>
+                        <figure>
+                            <img class="carousel-img" src="./images/ATMServer.png" alt="ATMServer"
+                                 onclick="window.open('https://github.com/KozerenkoRoman/ATMMobile', '_blank');">
+                            <figcaption class="carousel-info">RESTful Web Service with CRUD support (MVCFramework, MS
+                                SQL, FireDAC)
+                            </figcaption>
+                        </figure>
                         <a class="arrow arrow-prev" href="#item-2"></a>
                         <a class="arrow arrow-next" href="#item-1"></a>
                     </div>
