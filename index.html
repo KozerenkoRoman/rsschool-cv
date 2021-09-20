@@ -192,11 +192,11 @@
                 <pre>
                     <code class="javascript">
 function revertRot(str, sz) {
-  if (sz < 1 || sz > str.length) return '';
+  if (sz &lt; 1 || sz &gt; str.length) return '';
   const rev = function(a) {return a.split('').reverse().join('');};
   const rot = function(b) {return b.slice(1) + b.slice(0, 1);};
-  const sumCubes = function(c) {return c.split('').reduce((prev, curr) => +prev + Math.pow(+curr, 3));};
-  return str.match(new RegExp('.{' + sz + '}', 'g')).map(d => sumCubes(d) % 2 ? rot(d) : rev(d)).join('');
+  const sumCubes = function(c) {return c.split('').reduce((prev, curr) =&gt; +prev + Math.pow(+curr, 3));};
+  return str.match(new RegExp('.{' + sz + '}', 'g')).map(d =&gt; sumCubes(d) % 2 ? rot(d) : rev(d)).join('');
 };
                     </code>
                 </pre>
