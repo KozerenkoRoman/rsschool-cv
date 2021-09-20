@@ -198,13 +198,6 @@ article {
     color: white;
 }
 
-pre {
-    color: black;
-    background: #dee0e1;
-    padding: 2em;
-    width: 91%;
-}
-
 .skill-item {
     display: flex;
     color: white;

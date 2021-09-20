@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Roman Kozerenko</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <div class="main-conteiner">
@@ -187,13 +190,15 @@
             <section>
                 <h2 class="chapter-h2">CODE EXAMPLE</h2>
                 <pre>
-<strong>function</strong> revertrot(str, sz) {
-  <strong>if</strong> (sz &lt; 1 || sz &gt; str.length) <strong>return</strong> '';
-  <strong>let</strong> rev = <strong>function</strong>(a) {<strong>return</strong> a.split('').reverse().join('');};
-  <strong>let</strong> rot = <strong>function</strong>(b) {<strong>return</strong> b.slice(1) + b.slice(0, 1);};
-  <strong>let</strong> sumCubes = <strong>function</strong>(c) {<strong>return</strong> c.split('').reduce((prev, curr) =&gt; +prev + Math.<strong>pow</strong>(+curr, 3));};
-  <strong>return</strong> str.match(<strong>new</strong> RegExp('<strong>.{</strong>' + sz + '<strong>}</strong>', 'g')).map(d =&gt; sumCubes(d) % 2 ? rot(d) : rev(d)).join('');
+                    <code class="javascript">
+function revertrot(str, sz) {
+  if (sz < 1 || sz > str.length) return '';
+  const rev = function(a) {return a.split('').reverse().join('');};
+  const rot = function(b) {return b.slice(1) + b.slice(0, 1);};
+  const sumCubes = function(c) {return c.split('').reduce((prev, curr) => +prev + Math.pow(+curr, 3));};
+  return str.match(new RegExp('.{' + sz + '}', 'g')).map(d => sumCubes(d) % 2 ? rot(d) : rev(d)).join('');
 };
+                    </code>
                 </pre>
             </section>
 
