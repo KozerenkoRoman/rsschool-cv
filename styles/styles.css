@@ -2,15 +2,52 @@ html {
     background-color: #d5d9da;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 8px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 9px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1920px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1921px) {
+    body {
+        font-size: 16px;
+    }
+}
+
 body {
     font-family: Verdana, sans-serif;
     font-stretch: ultra-condensed;
-    font-size: 14px;
     line-height: 2em;
     display: flex;
-    align-self: stretch;
-    flex-wrap: nowrap;
-    flex-direction: column;
     color: #403f45;
 }
 
@@ -45,9 +82,7 @@ aside {
     padding: 1em;
     padding-left: 0;
     flex-direction: column;
-    float: left;
     display: flex;
-    justify-content: flex-start;
     align-content: stretch;
     max-width: 25em;
 }
@@ -110,6 +145,10 @@ article {
     color: #a3c2ca;
 }
 
+.chapter-h3 h3 {
+    display: flex;
+}
+
 .rectangle {
     width: 24em;
     height: 6em;
@@ -119,7 +158,6 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*filter: drop-shadow(0 0 2px #463f47);*/
 }
 
 .rectangle:before {
@@ -160,12 +198,6 @@ article {
     color: white;
 }
 
-pre {
-    color: black;
-    background: #dee0e1;
-    padding: 2em;
-}
-
 .skill-item {
     display: flex;
     color: white;
@@ -178,10 +210,8 @@ pre {
 
 .progressbar {
     height: 1em;
-    /*position: relative;*/
     background: white;
     width: 24em;
-    /*filter: drop-shadow(0 0 2px #463f47);*/
 }
 
 .progressbar div {
@@ -189,8 +219,6 @@ pre {
     display: block;
     height: 100%;
     background-color: #403f45;
-    /*position: relative;*/
-    /*overflow: hidden;*/
 }
 
 .experience {
@@ -214,8 +242,8 @@ pre {
 .carousel-wrapper {
     height: 40em;
     position: relative;
-    width: 65em;
     margin: 0 auto;
+    width: 91%;
 }
 
 .carousel-item {
@@ -303,4 +331,3 @@ pre {
     display: flex;
     justify-content: center;
 }
-
