@@ -92,7 +92,7 @@ main {
     flex-direction: row;
     background-color: white;
     margin-bottom: 0;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0 25px 20px;
 }
 
 aside {
@@ -139,7 +139,7 @@ article {
     background-color: #8c8c8c;
     justify-content: space-around;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0 25px 20px;
 }
 
 .main-footer-item {
@@ -334,11 +334,13 @@ article {
     background-size: cover;
 }
 
-.item-2 {
-    background-size: cover;
-}
-
-.item-3 {
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8 {
     background-size: cover;
 }
 
@@ -350,7 +352,13 @@ article {
     opacity: 1;
 }
 
-#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+#item-2:target ~ .item-2,
+#item-3:target ~ .item-3,
+#item-4:target ~ .item-4,
+#item-5:target ~ .item-5,
+#item-6:target ~ .item-6,
+#item-7:target ~ .item-7,
+#item-8:target ~ .item-8 {
     z-index: 3;
     opacity: 1;
 }
